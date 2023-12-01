@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Anime Planet</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top-box">
+      <div class="container">
+        <div class="header__top">
+          <a class="header__top-logo" href="#">
+            <img src="images/logo.svg" alt="header-logo">
+          </a>
+          <div class="header__top-search">
+            <input class="header__top-input" type="text">
+          </div>
+          <button class="header__top-registration">registration</button>
+        </div>
+      </div>
+      <div class="header__midle">
+        <div class="decorations__line"></div>
+        <div class="container">
+          <div class="header__midle-title">
+            <h2>Watch the newest <br> episodes now</h2>
+          </div>
+          <div class="header__midle__gallery">
+            <div class="header__midle__gallery__item">
+              <div class="header__midle__gallery__item-img">
+                <img src="images/header-gallery-one.png" alt="">
+
+              </div>
+              <a href="#">
+                <button>Chainsaw man</button>
+              </a>
+            </div>
+            <div class="header__midle__gallery__item">
+              <div class="header__midle__gallery__item-img">
+                <img src="images/header-gallery-five.png" alt="">
+              </div>
+              <a href="#">
+                <button>Blue Lock</button>
+              </a>
+            </div>
+            <div class="header__midle__gallery__item">
+              <div class="header__midle__gallery__item-img">
+                <img src="images/header-gallery-three.png" alt="">
+              </div>
+              <a href="#">
+                <button>Batlle master</button>
+              </a>
+            </div>
+            <div class="header__midle__gallery__item">
+              <div class="header__midle__gallery__item-img">
+                <img src="images/header-gallery-three.png" alt="">
+              </div>
+              <a href="#">
+                <button>Full Metal Alchemist</button>
+              </a>
+            </div>
+            <div class="header__midle__gallery__item">
+              <div class="header__midle__gallery__item-img">
+                <img src="images/header-gallery-one.png" alt="">
+              </div>
+              <a href="#">
+                <button>Chainsaw man</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <div class="header__bottom__nav">
+          <div class="header__bottom__nav-left">
+            <a class="decorations__line-text" href="#">ARE WATCHING NOW</a>
+            <a class="decorations__line-text" href="#">ALL ANIME</a>
+          </div>
+          <div class="header__bottom__nav-right">
+            <a class="decorations__line-text" href="#">MY BOOKMARKS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main id="mainColor">
+    <div class="container">
+      <div class="navigations">
+        <div class="navigations__buttons">
+
+          <div class="dropdown">
+            <button class="dropbtn">GENRE</button>
+            <div class="dropdown-content">
+              <a href="#">Adventures</a>
+              <a href="#">Action</a>
+              <a href="#">Comedy</a>
+              <a href="#">Everyday life</a>
+              <a href="#">Romance</a>
+              <a href="#">Drama</a>
+              <a href="#">Fiction</a>
+              <a href="#">Fantasy</a>
+              <a href="#">Mystic</a>
+              <a href="#">Detective</a>
+              <a href="#">Thriller</a>
+              <a href="#">Psychology</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">BY YEARS</button>
+            <div class="dropdown-content">
+              <a href="#">2022</a>
+              <a href="#">2021</a>
+              <a href="#">2020</a>
+              <a href="#">2019 </a>
+              <a href="#">2018</a>
+              <a href="#">2017</a>
+              <a href="#">2016</a>
+              <a href="#">2015</a>
+              <a href="#">2014</a>
+              <a href="#">2013</a>
+              <a href="#">2012</a>
+              <a href="#">2011</a>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">EXCLUDE</button>
+
+
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">SORTING</button>
+            <div class="dropdown-content">
+              <a href="#">By rating anime</a>
+              <a href="#">By update date</a>
+              <a href="#">By numberof views</a>
+              <a href="#">By numberof comments</a>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="navigations__other">
+          <button class="navigations__other-telegram"></button>
+          <button class="navigations__other-youtube"></button>
+          <button id="changingTheme" class="navigations__other-theme navigations__other-theme-activee "></button>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="catalog__list">
+          <div class="catalog__list-films">
+
+            <div class="anime__card">
+              <img src="images/anime-rard-one.png" alt="">
+              <div class="anime__card-info">
+                <div class="anime__card-info-name">
+                  <a class="anime__card-info-name-title" href="#">The steel alchemist</a>
+                  <span class="anime__card-info-rating">7.9</span>
+                </div>
+                <div class="anime__card-info-discription">
+                  <a href="#">4 seasons</a>
+                  <a href="#">87 series</a>
+                  <a class="anime__card-info-icon" href="#">2 films</a>
+                </div>
+              </div>
+
+            </div>
+            <div class="anime__card">
+              <img src="images/card-two.png" alt="">
+              <div class="anime__card-NEW">NEW</div>
+              <div class="anime__card-info">
+                <div class="anime__card-info-name">
+                  <a class="anime__card-info-name-title" href="#">The steel alchemist</a>
+                  <span class="anime__card-info-rating">7.9</span>
+                </div>
+                <div class="anime__card-info-discription">
+                  <a href="#">4 seasons</a>
+                  <a href="#">87 series</a>
+                  <a class="anime__card-info-icon" href="#">2 films</a>
+                </div>
+
+              </div>
+
+            </div>
+            <div class="anime__card">
+              <img src="images/anime-rard-three.png" alt="">
+              <div class="anime__card-info">
+                <div class="anime__card-info-name">
+                  <a class="anime__card-info-name-title" href="#">The steel alchemist</a>
+                  <span class="anime__card-info-rating">7.9</span>
+                </div>
+                <div class="anime__card-info-discription">
+                  <a href="#">4 seasons</a>
+                  <a href="#">87 series</a>
+                  <a class="anime__card-info-icon" href="#">2 films</a>
+                </div>
+              </div>
+            </div>
+            <div class="anime__card">
+              <img src="images/anime-rard-four.png" alt="">
+              <div class="anime__card-NEW">NEW</div>
+              <div class="anime__card-info">
+                <div class="anime__card-info-name">
+                  <a class="anime__card-info-name-title" href="#">The steel alchemist</a>
+                  <span class="anime__card-info-rating">7.9</span>
+                </div>
+                <div class="anime__card-info-discription">
+                  <a href="#">4 seasons</a>
+                  <a href="#">87 series</a>
+                  <a class="anime__card-info-icon" href="#">2 films</a>
+                </div>
+              </div>
+            </div>
+            <div class="anime__card">
+              <img src="images/anime-rard-five.png" alt="">
+              <div class="anime__card-info">
+                <div class="anime__card-info-name">
+                  <a class="anime__card-info-name-title" href="#">The steel alchemist</a>
+                  <span class="anime__card-info-rating">7.9</span>
+                </div>
+                <div class="anime__card-info-discription">
+                  <a href="#">4 seasons</a>
+                  <a href="#">87 series</a>
+                  <a class="anime__card-info-icon" href="#">2 films</a>
+                </div>
+              </div>
+            </div>
+            <div class="anime__card">
+              <img src="images/anime-rard-six.png" alt="">
+              <div class="anime__card-info">
+                <div class="anime__card-info-name">
+                  <a class="anime__card-info-name-title" href="#">The steel alchemist</a>
+                  <span class="anime__card-info-rating">7.9</span>
+                </div>
+                <div class="anime__card-info-discription">
+                  <a href="#">4 seasons</a>
+                  <a href="#">87 series</a>
+                  <a class="anime__card-info-icon" href="#">2 films</a>
+                </div>
+              </div>
+            </div>
+            <div class="anime__card">
+              <img src="images/anime-rard-seven.png" alt="">
+              <div class="anime__card-NEW">NEW</div>
+              <div class="anime__card-info">
+                <div class="anime__card-info-name">
+                  <a class="anime__card-info-name-title" href="#">The steel alchemist</a>
+                  <span class="anime__card-info-rating">7.9</span>
+                </div>
+                <div class="anime__card-info-discription">
+                  <a href="#">4 seasons</a>
+                  <a href="#">87 series</a>
+                  <a class="anime__card-info-icon" href="#">2 films</a>
+                </div>
+              </div>
+            </div>
+            <div class="anime__card">
+              <img src="images/anime-rard-eight.png" alt="">
+              <div class="anime__card-info">
+                <div class="anime__card-info-name">
+                  <a class="anime__card-info-name-title" href="#">The steel alchemist</a>
+                  <span class="anime__card-info-rating">7.9</span>
+                </div>
+                <div class="anime__card-info-discription">
+                  <a href="#">4 seasons</a>
+                  <a href="#">87 series</a>
+                  <a class="anime__card-info-icon" href="#">2 films</a>
+                </div>
+              </div>
+            </div>
+            <div class="anime__card">
+              <img src="images/anime-rard-nine.png" alt="">
+              <div class="anime__card-info">
+                <div class="anime__card-info-name">
+                  <a class="anime__card-info-name-title" href="#">The steel alchemist</a>
+                  <span class="anime__card-info-rating">7.9</span>
+                </div>
+                <div class="anime__card-info-discription">
+                  <a href="#">4 seasons</a>
+                  <a href="#">87 series</a>
+                  <a class="anime__card-info-icon" href="#">2 films</a>
+                </div>
+              </div>
+            </div>
+            <div class="anime__card">
+              <img src="images/anime-rard-ten.png" alt="">
+              <div class="anime__card-info">
+                <div class="anime__card-info-name">
+                  <a class="anime__card-info-name-title" href="#">The steel alchemist</a>
+                  <span class="anime__card-info-rating">7.9</span>
+                </div>
+                <div class="anime__card-info-discription">
+                  <a href="#">4 seasons</a>
+                  <a href="#">87 series</a>
+                  <a class="anime__card-info-icon" href="#">2 films</a>
+                </div>
+              </div>
+            </div>
+            <div class="anime__card">
+              <img src="images/anime-rard-eleven.png" alt="">
+              <div class="anime__card-info">
+                <div class="anime__card-info-name">
+                  <a class="anime__card-info-name-title" href="#">The steel alchemist</a>
+                  <span class="anime__card-info-rating">7.9</span>
+                </div>
+                <div class="anime__card-info-discription">
+                  <a href="#">4 seasons</a>
+                  <a href="#">87 series</a>
+                  <a class="anime__card-info-icon" href="#">2 films</a>
+                </div>
+              </div>
+            </div>
+            <div class="anime__card">
+              <img src="images/anime-rard-three.png" alt="">
+              <div class="anime__card-info">
+                <div class="anime__card-info-name">
+                  <a class="anime__card-info-name-title" href="#">The steel alchemist</a>
+                  <span class="anime__card-info-rating">7.9</span>
+                </div>
+                <div class="anime__card-info-discription">
+                  <a href="#">4 seasons</a>
+                  <a href="#">87 series</a>
+                  <a class="anime__card-info-icon" href="#">2 films</a>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="catalog__list_info">
+            <div class="catalog__list_info-menu">
+              <a class="decorations__line-text" href="#">NOVELTIES</a>
+              <a class="decorations__line-text" href="#">ANIME BY GERNE</a>
+              <a class="decorations__line-text" href="#">ON YEARS</a>
+              <a class="decorations__line-text" href="#">SELECTIONS</a>
+              <a class="decorations__line-text" href="#">TOP 100 ANIME</a>
+              <span></span>
+              <a class="decorations__line-text" href="#">VIDEO REVIEWS</a>
+              <a class="decorations__line-text" href="#">ALL HEROES</a>
+              <a class="decorations__line-text" href="#">ANIME MAIL</a>
+            </div>
+            <div class="catalog__list_info-comments">
+              <div class="catalog__list_info-comments-title">
+                <h3 class="decorations__line-text">COMMENTS</h3>
+                <div id="switch-comments" class="switch-comments "></div>
+              </div>
+              <div id="catalog__list__comments" class="catalog__list_info-comments-list ">
+                <div class="catalog__list_info-comments-card">
+                  <div class="catalog__list_info-comments-card-title">
+                    <img src="images/comment-img.png" alt="comment-img">
+                    <h3>Ingilor/V</h3>
+                    <p class="catalog__list_info-comments-card-data">18.11.22</p>
+
+                  </div>
+                  <p class="catalog__list_info-comments-card-text">
+                    The third series is currently the most epic cut in the whole title
+                    I'm waiting for the continuation and I hope that it will be at least no worse ^^
+                  </p>
+                  <a class="mini-decorations__line-text" href="#">The throne marked by god</a>
+
+                </div>
+
+                <div class="catalog__list_info-comments-card catalog__list_info-comments-card-bg">
+                  <div class="catalog__list_info-comments-card-title">
+                    <img src="images/comment-img.png" alt="comment-img">
+                    <h3>Ingilor/V</h3>
+                    <p class="catalog__list_info-comments-card-data">18.11.22</p>
+
+                  </div>
+                  <p class="catalog__list_info-comments-card-text">
+                    The third series is currently the most epic cut in the whole title
+                    I'm waiting for the continuation and I hope that it will be at least no worse ^^
+                  </p>
+                  <a class="mini-decorations__line-text" href="#">The throne marked by god</a>
+
+                </div>
+                <div class="catalog__list_info-comments-card">
+                  <div class="catalog__list_info-comments-card-title">
+                    <img src="images/comment-img.png" alt="comment-img">
+                    <h3>Ingilor/V</h3>
+                    <p class="catalog__list_info-comments-card-data">18.11.22</p>
+
+                  </div>
+                  <p class="catalog__list_info-comments-card-text">
+                    The third series is currently the most epic cut in the whole title
+                    I'm waiting for the continuation and I hope that it will be at least no worse ^^
+                  </p>
+                  <a class="mini-decorations__line-text" href="#">The throne marked by god</a>
+
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="new__films">
+        <div class="container">
+          <div class="new__films-box">
+            <div class="new__films-content">
+              <div class="new__films-img">
+                <img src="images/new-films.png" alt="">
+              </div>
+              <div class="new__films-title">
+                <h2>ALL NEW FILMS THIS YEAR</h2>
+                <button>WATCH</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <sections>
+      <div class="container">
+        <div class="slider__box">
+          <div class="slider__title">
+            <h2>NEW ANIME ON SITE</h2>
+            <h2>NEW ANIME ON SITE</h2>
+            <h2>NEW ANIME ON SITE</h2>
+          </div>
+          <div class="center slider-home">
+            <div>
+              <img src="images/anime-rard-one.png" alt="">
+            </div>
+            <div>
+              <img src="images/anime-rard-seven.png" alt="">
+            </div>
+            <div>
+              <img src="images/anime-rard-four.png" alt="">
+            </div>
+            <div>
+              <img src="images/anime-rard-ten.png" alt="">
+            </div>
+            <div>
+              <img src="images/anime-rard-one.png" alt="">
+            </div>
+            <div>
+              <img src="images/anime-rard-three.png" alt="">
+            </div>
+            <div>
+              <img src="images/anime-rard-one.png" alt="">
+            </div>
+            <div>
+              <img src="images/anime-rard-ten.png" alt="">
+            </div>
+            <div>
+              <img src="images/anime-rard-seven.png" alt="">
+            </div>
+            <div>
+              <img src="images/anime-rard-one.png" alt="">
+            </div>
+            <div>
+              <img src="images/anime-rard-eight.png" alt="">
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </sections>
+    <sections>
+      <div class="info__blok">
+        <div class="container">
+          <h3 class="info__blok-title">Watch anime online in HD quality</h3>
+          <p class="info__blok-text">
+            Anime Planet offers you to watch your favorite anime in high quality, add it to your bookmarks and it will
+            remember for
+            you which series you stopped at. By going to the main page, you can continue watching from the very episode
+            where you
+            left off.
+          </p>
+          <a href="#" class="info__blok-link">
+            The site may contain materials 18+
+          </a>
+        </div>
+      </div>
+    </sections>
+
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__box">
+        <div class="footer__logo">
+          <div class="footer__logo-info">
+            <a href="#">
+              <img src="images/logo.svg" alt="">
+            </a>
+            <div class="footer__logo-info-years">2023</div>
+          </div>
+          <span class="footer__logo-info-name">Anime star planet</span>
+        </div>
+        <div class="footer__nav">
+          <a class="decorations__line-text" href="#">ALL ANIME</a>
+          <a class="decorations__line-text" href="#">AGREEMENT</a>
+          <a class="decorations__line-text" href="#">RIGHT HOLDERS</a>
+        </div>
+      </div>
+    </div>
+
+
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script src="js/my-slick.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
